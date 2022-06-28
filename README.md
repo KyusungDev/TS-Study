@@ -18,10 +18,10 @@
 
 #### 참고 강의
 - 타입스크립트 기본 (https://www.youtube.com/watch?v=5oGAkQsGWkc&list=PLZKTXPmaJk8KhKQ_BILr1JKCJbR0EGlx0)
-- 이펙티브 타입스크립트 강의(https://inf.run/u6Xu)
+- 이펙티브 타입스크립트 강의 (https://inf.run/u6Xu)
 
 #### 공식 핸드북
-https://www.typescriptlang.org/ko/docs/handbook/intro.html
+- 핸드북 (https://www.typescriptlang.org/ko/docs/handbook/intro.html)
 
 #### 기타
 - 모임은 온라인을 기본으로 하고 매월 마지막주차에 오프라인 모임 진행할 예정입니다.
