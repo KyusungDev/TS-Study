@@ -10,7 +10,9 @@
 다음주 발표자는 매주 사다리타기로 결정
 
 #### 진행 계획
-- 1~4주차: 타입스크립트 핸드북 (https://joshua1988.github.io/ts/)
+- 1~4주차: 타입스크립트 핸드북(https://joshua1988.github.io/ts/)
+  - [공식 타입스크립트 핸드북(선택사항)](https://www.typescriptlang.org/ko/docs/handbook/intro.html)
+  - [마이크로소프트 교육 모듈(선택사항)](https://docs.microsoft.com/ko-kr/learn/paths/build-javascript-applications-typescript/)
 - 5~12주차: 이펙티브 타입스크립트 책
 
 > 이펙티브 타입스크립트 책은 활용서이기 때문에 기본적인 부분들을 학습한 후에 이펙티브 책을 보는것이  
