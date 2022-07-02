@@ -48,11 +48,16 @@
 - [2021 State Of JS - 자바스크립트로 컴파일되는 언어](https://2021.stateofjs.com/ko-KR/other-tools/#javascript_flavors0)
 ![image](https://user-images.githubusercontent.com/6733004/176999425-7b708bf1-90f6-4db2-99dd-cd172c254206.png)
 
-### 타입스크립트가 도움이 될까?
-
+---
+### 타입스크립트를 어떻게 시작해야 할까?
+타입스크립트는 자바스크립트와는 다른 정적 언어다. 분명히 러닝커브가 존재하고 깊이있게 이해해야 한다.   
+하지만 타입스크립트의 모든 기능을 알필요도 없고 전부를 사용하지도 않는다.  
+**그러니, 타입체크와 자동완성을 도와주는 플러그인 정도로 생각하고 가볍게 시작해보자.**
 
 ---
 ### 참고
 - [타입스크립트 핸드북](https://joshua1988.github.io/ts/why-ts.html#%EC%99%9C-%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%A5%BC-%EC%8D%A8%EC%95%BC%ED%95%A0%EA%B9%8C%EC%9A%94)
 - [나무위키 타입스크립트](https://namu.wiki/w/TypeScript)
-- -
+- [우아한 테크코스 - 타입스크립트](https://www.youtube.com/watch?v=ViS8DLd6o-E&ab_channel=%EC%9A%B0%EC%95%84%ED%95%9CTech)
+- [Typescript 어떻게 공부해야 하나요?](https://yozm.wishket.com/magazine/detail/1376/)
+- [자바스크립트 개발자를 위한 타입스크립트](https://ahnheejong.gitbook.io/ts-for-jsdev/01-introducing-typescript/why-typescript)
