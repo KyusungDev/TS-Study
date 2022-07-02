@@ -11,7 +11,7 @@
 
 #### 진행 계획
 - 1~4주차: 타입스크립트 핸드북(https://joshua1988.github.io/ts/)
-  - [공식 타입스크립트 핸드북(선택사항)](https://www.typescriptlang.org/ko/docs/handbook/intro.html)
+  - [공식 타입스크립트 핸드북(선택사항)](https://www.typescriptlang.org/ko/docs/handbook/intro.html), [한글 번역](https://typescript-kr.github.io/pages/interfaces.html)
   - [마이크로소프트 교육 모듈(선택사항)](https://docs.microsoft.com/ko-kr/learn/paths/build-javascript-applications-typescript/)
 - 5~12주차: 이펙티브 타입스크립트 책
 
