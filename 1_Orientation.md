@@ -44,7 +44,15 @@
   - 타입스크립트만의 고유한 기능을 사용하여 더욱 명시적으로 타입을 제한할 수 있다. (enum, type, interface, Generic..)
   - 별도의 문서 없이도 API 요청과 응답 형태를 파악하고 사용법을 쉽게 유추하고 타입 검사를 할 수 있다. ([Open API Generator](https://egg-programmer.tistory.com/287))
 
+### 타입스크립트 사용 실태
+- [2021 State Of JS - 자바스크립트로 컴파일되는 언어](https://2021.stateofjs.com/ko-KR/other-tools/#javascript_flavors0)
+![image](https://user-images.githubusercontent.com/6733004/176999425-7b708bf1-90f6-4db2-99dd-cd172c254206.png)
+
+### 타입스크립트가 도움이 될까?
+
+
 ---
 ### 참고
 - [타입스크립트 핸드북](https://joshua1988.github.io/ts/why-ts.html#%EC%99%9C-%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EB%A5%BC-%EC%8D%A8%EC%95%BC%ED%95%A0%EA%B9%8C%EC%9A%94)
 - [나무위키 타입스크립트](https://namu.wiki/w/TypeScript)
+- -
