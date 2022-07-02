@@ -61,3 +61,4 @@
 - [우아한 테크코스 - 타입스크립트](https://www.youtube.com/watch?v=ViS8DLd6o-E&ab_channel=%EC%9A%B0%EC%95%84%ED%95%9CTech)
 - [Typescript 어떻게 공부해야 하나요?](https://yozm.wishket.com/magazine/detail/1376/)
 - [자바스크립트 개발자를 위한 타입스크립트](https://ahnheejong.gitbook.io/ts-for-jsdev/01-introducing-typescript/why-typescript)
+- [TypeScript Desgin Goals](https://github.com/Microsoft/TypeScript/wiki/TypeScript-Design-Goals)
