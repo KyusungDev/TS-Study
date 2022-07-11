@@ -29,7 +29,7 @@
 - 타입 별칭과 인터페이스의 차이점 타입 별칭과 인터페이스는 매우 유사하며, 대부분의 경우 둘 중 하나를 자유롭게 선택하여 사용할 수 있습니다. interface가 가지는 대부분의 기능은 type에서도 동일하게 사용 가능합니다. 이 둘의 가장 핵심적인 차이는, 타입은 새 프로퍼티를 추가하도록 개방될 수 없는 반면, 인터페이스의 경우 항상 확장될 수 있다는 점입니다.
 
 #### null과 undefined [본문](https://www.typescriptlang.org/ko/docs/handbook/2/everyday-types.html#null%EA%B3%BC-undefined)
-JavaScript에는 빈 값 또는 초기화되지 않은 값을 가리키는 두 가지 원시값이 존재합니다. 바로 null과 undefined입니다.
+- JavaScript에는 빈 값 또는 초기화되지 않은 값을 가리키는 두 가지 원시값이 존재합니다. 바로 null과 undefined입니다.
 
 
 ### Q&A
