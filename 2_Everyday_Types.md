@@ -56,26 +56,18 @@ A) 타입 별칭과 인터페이스의 차이점 타입 별칭과 인터페이�
 - [Handbook Interface](https://www.typescriptlang.org/ko/docs/handbook/2/everyday-types.html#%ED%83%80%EC%9E%85-%EB%8B%A8%EC%96%B8)
 
 
-Q) enum을 사용하는 이유, 사용하지 않을 이유  
-A) 
-어떤걸 사용해야 할까? 필요에 따라
-https://www.typescriptlang.org/docs/handbook/enums.html#objects-vs-enums
+Q) Enum을 사용하는 이유, 사용하지 않을 이유  
+A) Enum을 사용방법을 이해하고 상황에 따라 사용하면 된다. (동작을 정확히 이해하는 것은 필요하지만 사용 방식에 대한 논쟁은 성능적으로도 문법적으로도 별 차이가 없기때문에 큰 의미가 없다)
+- [Handbook Object vs Enums](https://www.typescriptlang.org/docs/handbook/enums.html#objects-vs-enums)
+- [Handbook Enums](https://www.typescriptlang.org/ko/docs/handbook/2/everyday-types.html#%EC%97%B4%EA%B1%B0%ED%98%95)
+- [Stackoverflow enum vs as const](https://stackoverflow.com/questions/66862421/enum-vs-as-const)
 
-장단점을 따져보고 이해하고 상황에 따라 사용하자
-(동작을 이해하는 것은 좋지만 사용 방식에 대한 논쟁은 의미가 없다, 동작이 별 차이가 없기에)
-
-https://stackoverflow.com/questions/66862421/enum-vs-as-const
-
-
-단점 enum 타입을 재사용할 수가 없다.
-https://www.typescriptlang.org/play?#code/PTAEHUFMBsGMHsC2lQBd5oBYoCoE8AHSAZVgCcBLA1UABWgEM8BzM+AVwDsATAGiwoBnUENANQAd0gAjQRVSQAUCEmYKsTKGYUAbpGF4OY0BoadYKdJMoL+gzAzIoz3UNEiPOofEVKVqAHSKymAAmkYI7NCuqGqcANag8ABmIjQUXrFOKBJMggBcISGgoAC0oACCbvCwDKgU8JkY7p7ehCTkVDQS2E6gnPCxGcwmZqDSTgzxxWWVoASMFmgYkAAeRJTInN3ymj4d-jSCeNsMq-wuoPaOltigAKoASgAywhK7SbGQZIIz5VWCFzSeCrZagNYbChbHaxUDcCjJZLfSDbExIAgUdxkUBIursJzCFJtXydajBBCcQQ0MwAUVWDEQC0gADVHBQGNJ3KAALygABEAAkYNAMOB4GRonzFBSqf12Ih8nLENJvjzQABGADc0sagng7gCIuYAApafTGe5WZQOe4AJTBFQ4ZoeMheRDi5zA9g0L5uMzMdgMZiQfiwaDqRIc+B6ERePl0hlMwR8pLYvngByoADkwgAcpAJHygioAPJfMjvQQhrSQI6oRwKVzSPCgJzunTDLD6FAIRDQ4SXX0ScXREQGDjYhZMVgcHhBRQo+WgAAiFCcsHqjVAAG9FCV7gQ1ereHuV-AJJwTyVnpBkqgr6BHhRmJh74oAL7k3X6yCG+Am1d103TgAgPe1gkXRBQGeDJ4mEXcSmvWD1TVLMFCpdUswfJCEgAJlQ9DUFwrCPy-SkaBghJBHw3kEMQyj4nVRU0P0VBMOw6DYNw5jCOIk93zEYQZVQbVgncakGAYRUGMEAIGJQ3kZLk5DtXE8ZpGkaTYOo5SEgUziqNw3TGNEoA
-
-열거형
-https://www.typescriptlang.org/ko/docs/handbook/2/everyday-types.html#%EC%97%B4%EA%B1%B0%ED%98%95
-https://www.typescriptlang.org/ko/docs/handbook/enums.html
+> ```as const```를 사용하는 경우 타입을 재사용할 수 없다. 
+> [참고 예제](https://www.typescriptlang.org/play?#code/PTAEHUFMBsGMHsC2lQBd5oBYoCoE8AHSAZVgCcBLA1UABWgEM8BzM+AVwDsATAGiwoBnUENANQAd0gAjQRVSQAUCEmYKsTKGYUAbpGF4OY0BoadYKdJMoL+gzAzIoz3UNEiPOofEVKVqAHSKymAAmkYI7NCuqGqcANag8ABmIjQUXrFOKBJMggBcISGgoAC0oACCbvCwDKgU8JkY7p7ehCTkVDQS2E6gnPCxGcwmZqDSTgzxxWWVoASMFmgYkAAeRJTInN3ymj4d-jSCeNsMq-wuoPaOltigAKoASgAywhK7SbGQZIIz5VWCFzSeCrZagNYbChbHaxUDcCjJZLfSDbExIAgUdxkUBIursJzCFJtXydajBBCcQQ0MwAUVWDEQC0gADVHBQGNJ3KAALygABEAAkYNAMOB4GRonzFBSqf12Ih8nLENJvjzQABGADc0sagng7gCIuYAApafTGe5WZQOe4AJTBFQ4ZoeMheRDi5zA9g0L5uMzMdgMZiQfiwaDqRIc+B6ERePl0hlMwR8pLYvngByoADkwgAcpAJHygioAPJfMjvQQhrSQI6oRwKVzSPCgJzunTDLD6FAIRDQ4SXX0ScXREQGDjYhZMVgcHhBRQo+WgAAiFCcsHqjVAAG9FCV7gQ1ereHuV-AJJwTyVnpBkqgr6BHhRmJh74oAL7k3X6yCG+Am1d103TgAgPe1gkXRBQGeDJ4mEXcSmvWD1TVLMFCpdUswfJCEgAJlQ9DUFwrCPy-SkaBghJBHw3kEMQyj4nVRU0P0VBMOw6DYNw5jCOIk93zEYQZVQbVgncakGAYRUGMEAIGJQ3kZLk5DtXE8ZpGkaTYOo5SEgUziqNw3TGNEoA)
 
 
-Q) 유니온의 사용
+
+Q) 유니온의 사용   
 A) TypeScript Union 유형은 유형이 여러 값/유형으로 구성될 수 있는 경우에 사용
 - [Typescript union type a deeper look](https://daily-dev-tips.com/posts/typescript-union-type-a-deeper-look/)
 
@@ -93,10 +85,11 @@ A)
 
 Q) void, unknown, any, never  
 A) 
-void: 
+- void: 함수에서 반환값 없을 때 표기, 명시하지 않을 경우 기본 void으로 추론되므로 대부분 생략 함.
+- never: [타입스크립트 Never 타입 완벽 가이드](https://ui.toast.com/weekly-pick/ko_20220323)
 
 
-Q) 타입이론
+Q) 타입이론  
 A) 프로그래밍 언어는 정확한 연산결과를 위해 타입에러 대해서 에러를 발생시키고 타입 안정성을 지켜야할 필요가 있다.
 구현된 언어를 해석해서 유효한 연산인지 파악하기 위해 타입 정보를 유추해야 한다.
 
