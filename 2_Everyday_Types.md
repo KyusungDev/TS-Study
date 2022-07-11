@@ -90,13 +90,13 @@ A)
 - [JavaScript - 접근자 프로퍼티 (getter, setter)](https://velog.io/@bigbrothershin/JavaScript-%EC%A0%91%EA%B7%BC%EC%9E%90-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0-getter-setter)
 
 
-Q) void, never 타입
+Q) void, never 타입  
 A) 
 - void: 함수에서 반환값 없을 때 표기, 명시하지 않을 경우 기본 void으로 추론되므로 대부분 생략 함.
 - never: 절대 발생할 수 없는 타입의 표기 [타입스크립트 Never 타입 완벽 가이드](https://ui.toast.com/weekly-pick/ko_20220323)
 
 
-Q) Unknwon과 Any
+Q) Unknwon과 Any  
 A) 
 
 Q) 타입이론  
