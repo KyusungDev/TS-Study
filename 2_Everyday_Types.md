@@ -29,7 +29,14 @@
 - 타입 별칭과 인터페이스의 차이점 타입 별칭과 인터페이스는 매우 유사하며, 대부분의 경우 둘 중 하나를 자유롭게 선택하여 사용할 수 있습니다. interface가 가지는 대부분의 기능은 type에서도 동일하게 사용 가능합니다. 이 둘의 가장 핵심적인 차이는, 타입은 새 프로퍼티를 추가하도록 개방될 수 없는 반면, 인터페이스의 경우 항상 확장될 수 있다는 점입니다.
 
 #### null과 undefined [본문](https://www.typescriptlang.org/ko/docs/handbook/2/everyday-types.html#null%EA%B3%BC-undefined)
-- JavaScript에는 빈 값 또는 초기화되지 않은 값을 가리키는 두 가지 원시값이 존재합니다. 바로 null과 undefined입니다.
+- JavaScript에는 빈 값 또는 초기화되지 않은 값을 가리키는 두 가지 원시값이 존재합니다.
+
+
+#### Type Assertion [본문](https://radlohead.gitbook.io/typescript-deep-dive/type-system/type-assertion)
+- TypeScript에서는 시스템이 추론 및 분석한 타입 내용을 우리가 원하는 대로 얼마든지 바꿀 수 있습니다. 이때 "타입 표명(type assertion)"이라 불리는 메커니즘이 사용됩니다. TypeScript의 타입 표명은 프로그래머가 컴파일러에게 내가 너보다 타입에 더 잘 알고 있고, 나의 주장에 대해 의심하지 말라고 하는 것과 같습니다.
+- 타입 표명을 "타입 캐스팅(type casting)"이라 부르지 않는 이유는 일반적으로 캐스팅이란 말은 실행 시간에 어떤 동작이 일어날 것임을 내포하기 때문입니다. 하지만 "타입 표명(type assertions)"은 순수하게 컴파일 시간 구성물이고 당신의 코드가 어떤 식으로 분석되길 원하는지 컴파일러에게 힌트를 제공하는 수단입니다.
+
+
 
 
 ### Q&A
